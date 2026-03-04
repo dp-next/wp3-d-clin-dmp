@@ -1,0 +1,20 @@
+name: Build website
+
+on:
+  push:
+    branches:
+      - main
+
+# Limit token permissions for security
+permissions: read-all
+
+jobs:
+  build-website:
+    uses: seedcase-project/.github/.github/workflows/reusable-build-docs.yml@main
+    with:
+      hosting-provider: gh-pages
+    permissions:
+      contents: write
+      pages: write
+    secrets:
+      github-token: ${{ secrets.GITHUB_TOKEN }}

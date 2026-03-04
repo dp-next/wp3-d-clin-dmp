@@ -1,0 +1,43 @@
+project:
+  # TODO: Change to correct project type if using extensions
+  type: book
+
+book:
+  # TODO: Set the title of the website
+  title: ""
+  site-url: "https://dp-next.github.io/wp3-d-clin-dmp/"
+  repo-url: "https://github.com/dp-next/wp3-d-clin-dmp"
+  author:
+    - name: "TODO: Fill in name"
+      affiliation: "TODO: Fill in your affiliation"
+      orcid: "TODO: Fill in your ORCID"
+    - name: "TODO: Fill in name"
+      affiliation: "TODO: Fill in your affiliation"
+      orcid: "TODO: Fill in your ORCID"
+  repo-branch: main
+  repo-actions: [issue, edit, source]
+  search:
+    type: textbox
+  chapters:
+    - index.qmd
+  #  - part: "Sections"
+  #    chapters:
+  #    - path/to/file.qmd
+  # appendices:
+  #  - path/to/file.qmd
+  tools:
+    - icon: github
+      href: "https://github.com/dp-next/wp3-d-clin-dmp"
+      aria-label: "GitHub icon: Source repository"
+  page-footer:
+    center:
+      - text: "Licensed under CC BY 4.0"
+        href: "LICENSE.md"
+
+format:
+  # TODO: Use Quarto extension if available
+  html:
+    theme:
+      # TODO: Choose a different theme if desired
+      - litera
+      - custom-styles.scss
