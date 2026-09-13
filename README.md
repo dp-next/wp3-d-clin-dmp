@@ -1,6 +1,8 @@
-# wp3-d-clin-dmp: TODO add more to title
+# wp3-d-clin-dmp: Data Management Plan (DMP) for DP-Next
 
-<!-- TODO: Add description of project -->
+The DP-Next project aims to develop and test new approaches for early detection and prevention of T2D by combining register-based risk prediction with detailed biological and behavioral profiling. This application concerns the establishment of a targeted DP-Next cohort of people with prediabetes across the participating Steno Diabetes Centers, excluding SDCC and SDCS. The over all aim of this cohort is to improve our understanding of why some individuals with prediabetes progress to type 2 diabetes while others remain stable or revert to normal glucose regulation, and to identify clustering patterns based on easily obtainable biomarkers that can support targeted prevention.
+
+This DMP ensures transparency, compliance, and integrity in handling participant data throughout the project lifecycle.
 
 > [!TIP]
 > This website repository was generated from the
