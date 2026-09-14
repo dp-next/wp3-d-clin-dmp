@@ -4,7 +4,7 @@ This section describes what, where and how the sources of data will be collected
 
 ## Sources and methods
 
-Data from various Danish national registers, including diabetes classification data (OSDC), socio-economic indicators (DREAM), as well as data on laboratory measures (LABKA), medication data from the Danish National Prescription Registry and hospital diagnoses from the Danish National Patient Register (LPR) will be used. All analyses involving register data will take place on the authorized data infrastructure at Statistics Denmark (DST). For this purpose the DP-Next data package will be uploaded to the DP-Next DST project (DST project no. 710280), which is already active, has received all necessary authorisations.
+Existing data will be reused from various Danish national registers, including diabetes classification data (OSDC), socio-economic indicators (DREAM), as well as data on laboratory measures (LABKA), medication data from the Danish National Prescription Registry and hospital diagnoses from the Danish National Patient Register (LPR). All analyses involving register data will take place on the authorized data infrastructure at Statistics Denmark (DST). For this purpose the DP-Next data package will be uploaded to the DP-Next DST project (DST project no. 710280), which is already active, has received all necessary authorisations.
 
 Participants will provide data through questionnaire which will be recorded in REDCap. This will afterwards be transferred for storage on secure servers at GenomeDK.
 
@@ -19,7 +19,7 @@ Data generated during the clinical visits, will be uploaded after completion of 
 
 ## Collecting the data
 
-Data from the different DP-Next data sources will be linked using a unique participant ID across all data sources. The participant ID, referred to as the record ID in REDCap, will be generated in REDCap and used consistently across the study data sources.
+Data collection will be standardised using predefined protocols to ensure consistency and reproducibility across participants. Data from the different DP-Next data sources will be linked using a unique participant ID across all data sources. The participant ID, referred to as the record ID in REDCap, will be generated in REDCap and used consistently across the study data sources.
 
 For linkage with national register data at Statistics Denmark, the participant ID will be linked to the participant's civil registration number (CPR number) through a separate linkage key. The identifying information will be handled according to the approved data transfer procedures, and personal identifiers will be pseudonymised by Statistics Denmark before the data are made available for analysis. The pseudonymised identifier will subsequently enable linkage between DP-Next data and relevant national register data within the Statistics Denmark research environment.
 
