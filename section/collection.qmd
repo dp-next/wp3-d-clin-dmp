@@ -1,0 +1,3 @@
+
+
+Data from various Danish national registers, including diabetes classification data (OSDC), socio-economic indicators (DREAM), as well as data on laboratory measures (LABKA), medication data from the Danish National Prescription Registry and hospital diagnoses from the Danish National Patient Register (LPR) will be used to define outcomes and covariates required for the study aims. All analyses involving register data will take place on the authorized data infrastructure at Statistics Denmark (DST). For this purpose the DP-Next data package will be uploaded to the DP-Next DST project (DST project no. 710280), which is already active, has received all necessary authorisations and is managed and used extensively in DP-Next WP2.
