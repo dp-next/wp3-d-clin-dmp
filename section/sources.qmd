@@ -1,6 +1,6 @@
 # Data sources and flow
 
-DP-Next collects data from multiple sources, including clinical examinations, biological samples, questionnaires, and electronic tools. Data originates from participants, healthcare professionals and Danish national register data. Data from participants and healthcare professionals will be collected through REDCap and transfered for storage on secure servers at GenomeDK. Data from Danish register data are stored on Statistics Denmark (DST). For subsequent analysis, data from GenomeDK can be uploaded to DST. 
+DP-Next collects data from multiple sources, including clinical examinations, biological samples, questionnaires, and electronic tools. Data originates from participants, healthcare personnel and Danish national register data. Data from participants and healthcare personnel will be collected through REDCap and transferred for storage on secure servers at GenomeDK. Data from Danish register data are stored on Statistics Denmark (DST). For subsequent analysis, data from GenomeDK can be uploaded to DST. 
 
 ```{mermaid}
 %%| label: dataflow
@@ -9,7 +9,7 @@ DP-Next collects data from multiple sources, including clinical examinations, bi
 %%| fig-width: 100%
 
 flowchart TD
-Healthprof(["<b>Healthcare professional</b><br><i>[person]</i><br>working with the participants, collecting data and analysis of samples."])
+Healthprof(["<b>Healthcare personnel</b><br><i>[person]</i><br>working with the participants, collecting data and analysis of samples."])
 Participant(["<b>Participant</b><br><i>[person]</i><br>participating in the study, answering questionnaires and participating in clinical examinations."])
 Datamanager(["<b>Data Manager</b><br><i>[person]</i><br>working with retrieval and storage of data."])
 Researcher(["<b>Researcher</b><br><i>[person]</i><br>interested in doing additional analysis of existing data."])
