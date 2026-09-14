@@ -3,3 +3,9 @@
 To support the interpretation and reuse of data by other researchers, clear and comprehensive documentation and metadata are essential. To ensure that the data remain FAIR (Findable, Accessible, Interoperable, and Reusable), both now and in the future, this section describes the approach to documenting all datasets and associated metadata. It outlines the tools, standards, and procedures that will be used to maintain detailed descriptions of variables, data sources, and data collection methods. Robust metadata management will support data integrity, facilitate future use and reuse of the data, and ensure compliance with the FAIR principles.
 
 ## Documentation
+
+All data stored on the GenomeDK servers will be generated during the study, either by healthcare professionals or participants. External dataset will not be stored on GenomeDK. Sources of data include:
+
+- Participant responses to questionnaires
+
+- M
