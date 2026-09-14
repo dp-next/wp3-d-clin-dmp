@@ -1,0 +1,66 @@
+# Documentation and metadata
+
+To support the interpretation and reuse of data by other researchers, clear and comprehensive documentation and metadata are essential. To ensure that the data remain FAIR (Findable, Accessible, Interoperable, and Reusable), both now and in the future, this section describes the approach to documenting all datasets and associated metadata. It outlines the tools, standards, and procedures that will be used to maintain detailed descriptions of variables, data sources, and data collection methods. Robust metadata management will support data integrity, facilitate future use and reuse of the data, and ensure compliance with the FAIR principles.
+
+## Documentation
+
+All data stored on the GenomeDK servers will be generated during the study, either by healthcare professionals or participants. External dataset will not be stored on GenomeDK. Sources of data include:
+
+- Participant responses to questionnaires
+
+- Medical devices and scanners producing structured data files. A detailed list of scanners and devices will be maintained as part of the technical documentation.
+
+- Wearable and sensors including smartwatch and CGM.
+
+Data collection are expected to run from September 2026 to December 2029.\
+There are plans to link study data with register data, this work will take place on Statistics Denmark’s servers. Access to the data will be strictly controlled through GenomeDK. Researchers must submit an application to the steering committee to gain access, ensuring transparency and governance.
+
+## Metadata strategy
+
+Comprehensive metadata will be created and maintained throughout the study to ensure data usability and interoperability.
+
+- Field-level documentation: We will write detailed variable descriptions using the Field Annotation functionality in REDCap. This includes adherence to naming conventions defined by some naming rules (see below)
+
+- Supplier data dictionaries: All external data providers (e.g., CGM, Fitrockr) will supply data dictionaries in CSV format. These will be integrated into the metadata repository.
+
+- Device and sensor data: The site staff and the data architect will collaboratively document the CSV files originating from scanners and sensors to ensure completeness and clarity.
+
+- Metadata packaging: We will use software developed from the [Seedcase Project](https://seedcase-project.org) to generate and store metadata in a standardized data package format. These software will also structure the data in a standardized format and will run checks on the data to confirm that
+  it corresponds to the metadata. The data package will be stored on GenomeDK, where the data will be version controlled and a backup kept in case of errors or issues. The metadata will be connected to GitHub to increase accessibility and discoverability as well as improve
+  future collaboration on analyses of the data.
+
+## Field naming conventions in
+
+To make clear where a field belongs and what it will be used for, we use the following suffix naming conventions in REDCap:
+
+- \_admin: Denotes fields used for administrative purposes.
+
+- \_dq: Denotes fields used for data quality.
+
+- \_file: Denotes fields used for file uploads.
+
+- \_vX: Denotes which visit a field or form is related to.
+  The suffixes \_admin, \_dq, and \_file mark fields excluded from the data package as they are not
+  relevant for study analyses.
+
+The suffixes \_admin, \_dq, and \_file mark fields excluded from the data package as they are not relevant for study analyses.
+
+## Versioning and updates
+
+Metadata will be treated as a living resource. Updates will occur whenever new variables are introduced, existing fields are modified, or additional data sources are integrated. Version control will be implemented through the Seedcase software, ensuring that:
+
+- Each metadata package is assigned a unique version identifier.
+- Changes are logged with timestamps and descriptions.
+- Previous versions remain accessible for audit and reproducibility purposes.
+
+This approach guarantees traceability and supports long-term data integrity.
+
+## Data discovery and accessibility
+
+To facilitate data discovery, a dedicated website will be developed. This site will provide:
+
+- A searchable catalog of all variables.
+- Clear descriptions and metadata for each variable.
+- A foundation for the Publications Panel application process, ensuring researchers can identify relevant data before requesting access.
+
+This approach guarantees that data is well-documented, discoverable, and compliant with FAIR principles.

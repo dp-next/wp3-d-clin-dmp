@@ -1,0 +1,8 @@
+For data collection
+What about "processes such as calibration, repeated samples or measurements, standardised data capture, data entry validation, peer review of data, or representation with controlled vocabularies. "
+
+What about specific type of data
+"The study will generate and use:
+Clinical measurement data (e.g., HbA1c, OGTT results, blood pressure)
+Anthropometric data (e.g., height, weight, waist/hip circumference, skinfold thickness)
+Imaging-derived data (abdominal aorta calcification)"
