@@ -4,7 +4,11 @@ This project involves sensitive personal health data and therefore requires stri
 
 ## Ethics and privacy
 
-All participants will provide informed consent, which includes a clear statement that their data will be retained for a minimum of 15 years. The consent form also specifies that data may be shared with other research institutions, but strictly for research purposes (Databeskyttelsesloven § 10). This has been approved by the Ethics committee.
+All participants will provide informed consent prior to participation. The consent form clearly states that study data will be retained for a minimum of 15 years and that data may be shared with other research institutions strictly for research purposes, in accordance with Section 10 of the Danish Data Protection Act (Databeskyttelsesloven § 10).
+
+The study has been approved by the relevant Research Ethics Committee. Ethical approval ensures that participants' rights, safety, and privacy are appropriately protected, that data collection and study procedures are conducted in accordance with the approved protocol, and that the scientific and ethical validity of the study has been assessed.
+
+The identification and selection of the study population, including the criteria used to identify eligible individuals through health data, has been approved by the Danish Health Data Authority (Sundhedsdatastyrelsen).
 
 To protect the privacy of our participant, personally identifiable data (PID) will never be made available to researchers during the analysis phase. PID will only be accessible to staff responsible for direct participant contact, those managing instruments within REDCap, or for managing the final data structure. For all analytical purposes, pseudonymised or anonymised data will be used. Requests for data extracts must be submitted via a formal application form, which requires applicants to justify their need for specific data points, especially if they involve PID.
 
