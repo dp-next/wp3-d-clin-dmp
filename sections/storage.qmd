@@ -62,7 +62,11 @@ Analysis code and other non-sensitive material may be maintained separately wher
 
 ## **Access to the main data structures**
 
-It should be a limited number of people who have access to the full set of research data, which is currently the project manager and the [Seedcase Project](https://seedcase-project.org/) team, which includes the data architect, will have access to data on GDK as they will be helping with the transformation of raw data to Parquet files, and the creation of metadata. It should be made clear that no data analysis is to take place using the data without prior approval of project synopsis from the Publication Panel and from Project Management Team. There will also be staff at Fitrockr which will have access to their back-end data, this is covered by the contract.
+Only a limited number of authorised individuals will have access to the full research dataset, and access will be granted on a need-to-know basis. Users will have personal accounts with strong password requirements, and two-factor authentication (2FA) will be required where supported by the relevant system.
+
+Currently, the project manager and relevant members of the [Seedcase Project](https://seedcase-project.org/) team, including the data architect, will have access to data on GDK where this is required for transformation of raw data into Parquet files and creation of metadata. No scientific data analysis may take place without prior approval of the relevant project synopsis by the steering Committee.
+
+Fitrockr staff may have technical access to back-end data where required for operation of the platform. This access is governed by the applicable contract.
 
 ### **GDK**
 
@@ -74,7 +78,7 @@ REDCap provides a logging module that automatically records project‑level acti
 
 ### **Fitrockr**
 
-We will rely on the Fitrockr contract agreement for access control, audit reporting cadence, and data‑sharing/export mechanisms. We expect that Fitrockr will be able to provide us with either access to a list of users with data viewing access, or will be able to provide such a list on demand.
+We will rely on the Fitrockr contract agreement for access control, audit reporting cadence, and data‑sharing/export mechanisms. We expect that Fitrockr will be able to provide us with either access to a list of users with data viewing access, or such a list upon request.
 
 #### Statistics Denmark
 
