@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "Clinical study DMP"
+  title: "DP-Next clinical study DMP"
   site-url: "https://dp-next.github.io/wp3-d-clin-dmp/"
   repo-url: "https://github.com/dp-next/wp3-d-clin-dmp"
   author:
@@ -20,11 +20,24 @@ book:
   search:
     location: navbar
     type: textbox
+  downloads: [pdf]
   chapters:
     - index.qmd
     - part: "Sections"
       chapters:
+      - sections/sources.qmd
+      - sections/collection.qmd
+      - sections/metadata.qmd
       - sections/ethics.qmd
+      - sections/storage.qmd
+      - sections/selection.qmd
+      - sections/sharing.qmd
+      - sections/responsibilities.qmd
+    - part: "Supplementals"
+      chapters:
+        - supplemental/naming.qmd
+        - supplemental/visits.qmd
+        - supplemental/risk-assessment.qmd
   appendices:
    - CODE_OF_CONDUCT.md
    - CONTRIBUTING.md
