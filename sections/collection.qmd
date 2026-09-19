@@ -1,34 +1,61 @@
 # Data collection
 
-This section describes what, where and how the sources of data will be collected.
+This section describes what, where and how the sources of data will be
+collected.
 
 ## Sources and methods
 
-Existing data will be reused from various Danish national registers, including diabetes classification data (OSDC), socio-economic indicators (DREAM), as well as data on laboratory measures (LABKA), medication data from the Danish National Prescription Registry and hospital diagnoses from the Danish National Patient Register (LPR). All analyses involving register data will take place on the authorized data infrastructure at Statistics Denmark (DST). For this purpose the DP-Next data package will be uploaded to the DP-Next DST project (DST project no. 710280), which is already active, has received all necessary authorisations.
+Existing data will be reused from various Danish national registers, including
+diabetes classification data (OSDC), socio-economic indicators (DREAM), as well
+as data on laboratory measures (LABKA), medication data from the Danish National
+Prescription Registry and hospital diagnoses from the Danish National Patient
+Register (LPR). All analyses involving register data will take place on the
+authorized data infrastructure at Statistics Denmark (DST). For this purpose the
+DP-Next data package will be uploaded to the DP-Next DST project (DST project
+no. 710280), which is already active, has received all necessary authorisations.
 
-Participants will provide data through questionnaire which will be recorded in REDCap. This will afterwards be transferred for storage on secure servers at GenomeDK.
+Participants will provide data through questionnaire which will be recorded in
+REDCap. This will afterwards be transferred for storage on secure servers at
+GenomeDK.
 
-From the clinical visits, healthcare personnel will enter clinical and biological sample data into REDCap forms, and laboratory data may be uploaded from internal systems where applicable.
+From the clinical visits, healthcare personnel will enter clinical and
+biological sample data into REDCap forms, and laboratory data may be uploaded
+from internal systems where applicable.
 
-Data from Libre blinded Continous glucose monitoring (CGM) will be uploaded into REDCap. Data from smartwatch and scanner results will also be uploaded into RECap or directly into GenomeDK.
+Data from Libre blinded continuous glucose monitoring (CGM) will be uploaded
+into REDCap. Data from smartwatch and scanner results will also be uploaded into
+RECap or directly into GenomeDK.
 
 ## Frequency of collection
 
-Questionnaire data will be collected prior to the clinical visits, during the clinical visits, and during follow-up after the clinical visits. Wearable and sensor data will be collected continuously during the designated monitoring period and uploaded after sensor removal following 14 consecutive days of data collection. \
-Data generated during the clinical visits, will be uploaded after completion of the respective examinations.
+Questionnaire data will be collected prior to the clinical visits, during the
+clinical visits, and during follow-up after the clinical visits. Wearable and
+sensor data will be collected continuously during the designated monitoring
+period and uploaded after sensor removal following 14 consecutive days of data
+collection. Data generated during the clinical visits, will be uploaded after
+completion of the respective examinations.
 
 ## Collecting the data
 
-Data collection will be standardised using predefined protocols to ensure consistency and reproducibility across participants. Data from the different DP-Next data sources will be linked using a unique participant ID across all data sources. The participant ID, referred to as the record ID in REDCap, will be generated in REDCap and used consistently across the study data sources.
+Data collection will be standardised using predefined protocols to ensure
+consistency and reproducibility across participants. Data from the different
+DP-Next data sources will be linked using a unique participant ID across all
+data sources. The participant ID, referred to as the record ID in REDCap, will
+be generated in REDCap and used consistently across the study data sources.
 
-For linkage with national register data at Statistics Denmark, the participant ID will be linked to the participant's civil registration number (CPR number) through a separate linkage key. The identifying information will be handled according to the approved data transfer procedures, and personal identifiers will be pseudonymised by Statistics Denmark before the data are made available for analysis. The pseudonymised identifier will subsequently enable linkage between DP-Next data and relevant national register data within the Statistics Denmark research environment.
+For linkage with national register data at Statistics Denmark, the participant
+ID will be linked to the participant's civil registration number (CPR number)
+through a separate linkage key. The identifying information will be handled
+according to the approved data transfer procedures, and personal identifiers
+will be pseudonymised by Statistics Denmark before the data are made available
+for analysis. The pseudonymised identifier will subsequently enable linkage
+between DP-Next data and relevant national register data within the Statistics
+Denmark research environment.
 
 ## Data formats
 
--  REDCap: Structured tabular data in CSV imported to GenomeDK via API.
-
+- REDCap: Structured tabular data in CSV imported to GenomeDK via API.
 - Fitrockr: CSV export into REDCap or directly into GenomeDK.
-
 - CGM and scanners: CSV files uploaded into REDCap or directly to GenomeDK.
 
 ## Estimated raw data volumes
@@ -37,22 +64,24 @@ Unknown size at present.
 
 ## Data aggregation and storage
 
-The REDCap database serves as the central hub for most clinical and scanner data, including
-manual uploads from devices.
+The REDCap database serves as the central hub for most clinical and scanner
+data, including manual uploads from devices.
 
-GenomeDK’s servers will be the final repository for processed and collated data, ensuring a
-central location for secure storage of data and computational capacity for analysis.
+GenomeDK's servers will be the final repository for processed and collated data,
+ensuring a central location for secure storage of data and computational
+capacity for analysis.
 
 ## Quality assurance
 
-We will set up and run automated checks in REDCap to ensure completeness and consistency of
-clinical data.
+We will set up and run automated checks in REDCap to ensure completeness and
+consistency of clinical data.
 
-Uploaded wearable data will be checked against expected ranges and timestamps. The
-people responsible will be the on-site staff who are using REDCap during data collection.
+Uploaded wearable data will be checked against expected ranges and timestamps.
+The people responsible will be the on-site staff who are using REDCap during
+data collection.
 
-We will run checks to identify anything missing in the data or any anomalies and report on the
-results (if any).
+We will run checks to identify anything missing in the data or any anomalies and
+report on the results (if any).
 
 ## Visualisation of data flow
 
@@ -60,12 +89,22 @@ TBA
 
 ### REDCap
 
-REDCap is a secure web application for building and managing online surveys and databases. It is used to collect data from participants and healthcare professionals in DP-Next and collate data from other systems through APIs or csv uploads.
+REDCap is a secure web application for building and managing online surveys and
+databases. It is used to collect data from participants and healthcare
+professionals in DP-Next and collate data from other systems through APIs or csv
+uploads.
 
 ### Libre
 
-Libre is a blinded continuous glucose monitoring (CGM) sensor from Abbott that will be worn by the participants for two weeks. The data collected by the Libre device will be extracted at clinic visits and uploaded to the REDCap database. The Libre device will track the participants’ glucose levels in selected weeks of the study.
+Libre is a blinded continuous glucose monitoring (CGM) sensor from Abbott that
+will be worn by the participants for two weeks. The data collected by the Libre
+device will be extracted at clinic visits and uploaded to the REDCap database.
+The Libre device will track the participants' glucose levels in selected weeks
+of the study.
 
 ### Smart watch
 
-The smart watch will be used by the participants to track their physiological and activity-related data through integrated sensors. The data collected by these devices will be transmitted to Fitrockr where it will be collated and then transmitted to REDCap or GenomeDK.
+The smart watch will be used by the participants to track their physiological
+and activity-related data through integrated sensors. The data collected by
+these devices will be transmitted to Fitrockr where it will be collated and then
+transmitted to REDCap or GenomeDK.

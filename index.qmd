@@ -1,14 +1,25 @@
 # Welcome! {.unnumbered}
 
-The DP-Next project aims to develop and test new approaches for early detection and prevention of T2D by combining register-based risk prediction with detailed biological and behavioral profiling. This application concerns the establishment of a targeted DP-Next cohort of people with prediabetes across the participating Steno Diabetes Centers, excluding SDCC and SDCS. The over all aim of this cohort is to improve our understanding of why some individuals with prediabetes progress to type 2 diabetes while others remain stable or revert to normal glucose regulation, and to identify clustering patterns based on easily obtainable biomarkers that can support targeted prevention.
+The DP-Next project aims to develop and test new approaches for early detection
+and prevention of T2D by combining register-based risk prediction with detailed
+biological and behavioral profiling. This application concerns the establishment
+of a targeted DP-Next cohort of people with prediabetes across the participating
+Steno Diabetes Centers, excluding SDCC and SDCS. The over all aim of this cohort
+is to improve our understanding of why some individuals with prediabetes
+progress to type 2 diabetes while others remain stable or revert to normal
+glucose regulation, and to identify clustering patterns based on easily
+obtainable biomarkers that can support targeted prevention.
 
-This DMP ensures transparency, compliance, and integrity in handling participant data throughout the project lifecycle.
+This DMP ensures transparency, compliance, and integrity in handling participant
+data throughout the project lifecycle.
 
 We follow a DMP template from [DeiC](https://deic.dk/en/data-management).
 
 ## Collaborations
 
-The project is being conducted across all seven Steno Diabetes Centers. Establishment of DP-Next cohort will be performed across the participating Steno Diabetes Centers, excluding SDCC and SDCS.
+The project is being conducted across all seven Steno Diabetes Centers.
+Establishment of DP-Next cohort will be performed across the participating Steno
+Diabetes Centers, excluding SDCC and SDCS.
 
 ## Governance and maintenance
 
@@ -18,5 +29,11 @@ of the Chief Investigator.
 
 ## Funding
 
-The DP-Next programme is supported by a grant of DKK 25.0 million from the Novo Nordisk Foundation. Of the total funding for DP-Next, approximately DKK 7.8 million from the Novo Nordisk Foundation is allocated to the activities covered by WP3, “Clinical phenotyping (core and extended clinical assessment protocol)”. In addition, Steno Diabetes Center Odense has provided DKK 2.2 million specifically for the extended protocol activities at Steno Diabetes Center Odense. The total funding allocated to the study covered by the present application is therefore approximately DKK 10.0 million.
-
+The DP-Next programme is supported by a grant of DKK 25.0 million from the Novo
+Nordisk Foundation. Of the total funding for DP-Next, approximately DKK 7.8
+million from the Novo Nordisk Foundation is allocated to the activities covered
+by WP3, "Clinical phenotyping (core and extended clinical assessment protocol)".
+In addition, Steno Diabetes Center Odense has provided DKK 2.2 million
+specifically for the extended protocol activities at Steno Diabetes Center
+Odense. The total funding allocated to the study covered by the present
+application is therefore approximately DKK 10.0 million.
