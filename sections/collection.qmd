@@ -1,4 +1,4 @@
-# Data collection
+# Data collection {#sec-collection}
 
 This section describes what, where and how the sources of data will be
 collected.
