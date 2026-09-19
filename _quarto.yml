@@ -25,6 +25,7 @@ book:
     - part: "Sections"
       chapters:
       - ethics.qmd
+      - storage.qmd
   # appendices:
   #  - path/to/file.qmd
   tools:
