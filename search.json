@@ -1,35 +1,196 @@
 [
   {
-    "objectID": "sections/ethics.html",
-    "href": "sections/ethics.html",
-    "title": "2  Ethics, security, and legal compliance",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DP-Next clinical study DMP",
     "section": "",
-    "text": "2.1 Ethics and privacy\nThis project involves sensitive personal health data and therefore requires strict adherence to ethical and legal standards for data protection and research integrity. This section outlines how we are planning to handle ethical standards, legal obligations, and data security measures.\nAll participants will provide informed consent prior to participation. The consent form clearly states that study data will be retained for a minimum of 15 years and that data may be shared with other research institutions strictly for research purposes, in accordance with Section 10 of the Danish Data Protection Act (Databeskyttelsesloven § 10).\nThe study has been approved by the relevant Research Ethics Committee. Ethical approval ensures that participants’ rights, safety, and privacy are appropriately protected, that data collection and study procedures are conducted in accordance with the approved protocol, and that the scientific and ethical validity of the study has been assessed.\nThe identification and selection of the study population, including the criteria used to identify eligible individuals through health data, has been approved by the Danish Health Data Authority (Sundhedsdatastyrelsen).\nTo protect the privacy of our participant, personally identifiable data (PID) will never be made available to researchers during the analysis phase. PID will only be accessible to staff responsible for direct participant contact, those managing instruments within REDCap, or for managing the final data structure. For all analytical purposes, pseudonymised or anonymised data will be used. Requests for data extracts must be submitted via a formal application form, which requires applicants to justify their need for specific data points, especially if they involve PID.\nIn general, the principles for data extraction follows the current guidelines from Statistics Denmark. Individual-level data cannot be exported from the project database at GenomeDK. Only aggregated results and analysis scripts not including any personal identifiable data can be extracted.",
+    "text": "Welcome!\nThe DP-Next project aims to develop and test new approaches for early detection and prevention of T2D by combining register-based risk prediction with detailed biological and behavioral profiling. This application concerns the establishment of a targeted DP-Next cohort of people with prediabetes across the participating Steno Diabetes Centers, excluding SDCC and SDCS. The over all aim of this cohort is to improve our understanding of why some individuals with prediabetes progress to type 2 diabetes while others remain stable or revert to normal glucose regulation, and to identify clustering patterns based on easily obtainable biomarkers that can support targeted prevention.\nThis DMP ensures transparency, compliance, and integrity in handling participant data throughout the project lifecycle.\nWe follow a DMP template from DeiC.",
+    "crumbs": [
+      "Welcome!"
+    ]
+  },
+  {
+    "objectID": "index.html#collaborations",
+    "href": "index.html#collaborations",
+    "title": "DP-Next clinical study DMP",
+    "section": "Collaborations",
+    "text": "Collaborations\nThe project is being conducted across all seven Steno Diabetes Centers. Establishment of DP-Next cohort will be performed across the participating Steno Diabetes Centers, excluding SDCC and SDCS.",
+    "crumbs": [
+      "Welcome!"
+    ]
+  },
+  {
+    "objectID": "index.html#governance-and-maintenance",
+    "href": "index.html#governance-and-maintenance",
+    "title": "DP-Next clinical study DMP",
+    "section": "Governance and maintenance",
+    "text": "Governance and maintenance\nThis document will be maintained by members of the study team and has been approved for publication on the project website by the Project Manager on behalf of the Chief Investigator.",
+    "crumbs": [
+      "Welcome!"
+    ]
+  },
+  {
+    "objectID": "index.html#funding",
+    "href": "index.html#funding",
+    "title": "DP-Next clinical study DMP",
+    "section": "Funding",
+    "text": "Funding\nThe DP-Next programme is supported by a grant of DKK 25.0 million from the Novo Nordisk Foundation. Of the total funding for DP-Next, approximately DKK 7.8 million from the Novo Nordisk Foundation is allocated to the activities covered by WP3, “Clinical phenotyping (core and extended clinical assessment protocol)”. In addition, Steno Diabetes Center Odense has provided DKK 2.2 million specifically for the extended protocol activities at Steno Diabetes Center Odense. The total funding allocated to the study covered by the present application is therefore approximately DKK 10.0 million.",
+    "crumbs": [
+      "Welcome!"
+    ]
+  },
+  {
+    "objectID": "sections/sources.html",
+    "href": "sections/sources.html",
+    "title": "1  Data sources and flow",
+    "section": "",
+    "text": "DP-Next collects data from multiple sources, including clinical examinations, biological samples, questionnaires, and electronic tools. Data originates from participants, healthcare personnel and Danish national register data. Data from participants and healthcare personnel will be collected through REDCap and transferred for storage on secure servers at GenomeDK. Data from Danish register data are stored on Statistics Denmark (DST). For subsequent analysis, data from GenomeDK can be uploaded to DST.\n\n\n\n\nflowchart TD\n  Healthprof([\"&lt;b&gt;Healthcare personnel&lt;/b&gt;&lt;br&gt;&lt;i&gt;[person]&lt;/i&gt;&lt;br&gt;working with the participants, collecting data and analysis of samples.\"])\n  Participant([\"&lt;b&gt;Participant&lt;/b&gt;&lt;br&gt;&lt;i&gt;[person]&lt;/i&gt;&lt;br&gt;participating in the study, answering questionnaires and participating in clinical examinations.\"])\n  Datamanager([\"&lt;b&gt;Data Manager&lt;/b&gt;&lt;br&gt;&lt;i&gt;[person]&lt;/i&gt;&lt;br&gt;working with retrieval and storage of data.\"])\n  Researcher([\"&lt;b&gt;Researcher&lt;/b&gt;&lt;br&gt;&lt;i&gt;[person]&lt;/i&gt;&lt;br&gt;interested in doing additional analysis of existing data.\"])\n\n  DP-Next[[\"&lt;b&gt;DP-Next&lt;/b&gt;&lt;br&gt;&lt;i&gt;[system]&lt;/i&gt;&lt;br&gt;the DP-Next system will be comprised of REDCap and GenomeDK.&lt;br&gt;REDCap receives raw data; GenomeDK stores cleaned data.\"]]\n  DS[[\"&lt;b&gt;Denmark Statistics&lt;/b&gt;&lt;br&gt;&lt;i&gt;[system]&lt;/i&gt;&lt;br&gt;Closed analysis tool where data from DP-Next can be uploaded and compared with Danish register data.\"]]\n  DP[[\"&lt;b&gt;Data Collectors&lt;/b&gt;&lt;br&gt;&lt;i&gt;[systems]&lt;/i&gt;&lt;br&gt;Questionnaire, smartwatch, CGM, clinical examinations and biological samples.\"]]\n\n  DP-Next:::system\n  DP:::external\n  DS:::external\n  Healthprof --&gt; DP\n  Participant --&gt; DP\n  Datamanager --&gt; DP\n  DP --&gt; DP-Next\n  Researcher --&gt; DP-Next\n  DP-Next --&gt; DS\n  Researcher --&gt; DS\n\n  classDef system stroke-width:4pt\n  classDef external fill:lightgrey\n\n\nDiagram showing a basic overview of DP-Next, its anticipated users, and data providers.",
     "crumbs": [
       "Sections",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Ethics, security, and legal compliance</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data sources and flow</span>"
+    ]
+  },
+  {
+    "objectID": "sections/collection.html",
+    "href": "sections/collection.html",
+    "title": "2  Data collection",
+    "section": "",
+    "text": "2.1 Sources and methods\nThis section describes what, where and how the sources of data will be collected.\nExisting data will be reused from various Danish national registers, including diabetes classification data (OSDC), socio-economic indicators (DREAM), as well as data on laboratory measures (LABKA), medication data from the Danish National Prescription Registry and hospital diagnoses from the Danish National Patient Register (LPR). All analyses involving register data will take place on the authorized data infrastructure at Statistics Denmark (DST). For this purpose the DP-Next data package will be uploaded to the DP-Next DST project (DST project no. 710280), which is already active, has received all necessary authorisations.\nParticipants will provide data through questionnaire which will be recorded in REDCap. This will afterwards be transferred for storage on secure servers at GenomeDK.\nFrom the clinical visits, healthcare personnel will enter clinical and biological sample data into REDCap forms, and laboratory data may be uploaded from internal systems where applicable.\nData from Libre blinded continuous glucose monitoring (CGM) will be uploaded into REDCap. Data from smartwatch and scanner results will also be uploaded into RECap or directly into GenomeDK.",
+    "crumbs": [
+      "Sections",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data collection</span>"
+    ]
+  },
+  {
+    "objectID": "sections/collection.html#frequency-of-collection",
+    "href": "sections/collection.html#frequency-of-collection",
+    "title": "2  Data collection",
+    "section": "2.2 Frequency of collection",
+    "text": "2.2 Frequency of collection\nQuestionnaire data will be collected prior to the clinical visits, during the clinical visits, and during follow-up after the clinical visits. Wearable and sensor data will be collected continuously during the designated monitoring period and uploaded after sensor removal following 14 consecutive days of data collection. Data generated during the clinical visits, will be uploaded after completion of the respective examinations.",
+    "crumbs": [
+      "Sections",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data collection</span>"
+    ]
+  },
+  {
+    "objectID": "sections/collection.html#collecting-the-data",
+    "href": "sections/collection.html#collecting-the-data",
+    "title": "2  Data collection",
+    "section": "2.3 Collecting the data",
+    "text": "2.3 Collecting the data\nData collection will be standardised using predefined protocols to ensure consistency and reproducibility across participants. Data from the different DP-Next data sources will be linked using a unique participant ID across all data sources. The participant ID, referred to as the record ID in REDCap, will be generated in REDCap and used consistently across the study data sources.\nFor linkage with national register data at Statistics Denmark, the participant ID will be linked to the participant’s civil registration number (CPR number) through a separate linkage key. The identifying information will be handled according to the approved data transfer procedures, and personal identifiers will be pseudonymised by Statistics Denmark before the data are made available for analysis. The pseudonymised identifier will subsequently enable linkage between DP-Next data and relevant national register data within the Statistics Denmark research environment.",
+    "crumbs": [
+      "Sections",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data collection</span>"
+    ]
+  },
+  {
+    "objectID": "sections/collection.html#data-formats",
+    "href": "sections/collection.html#data-formats",
+    "title": "2  Data collection",
+    "section": "2.4 Data formats",
+    "text": "2.4 Data formats\n\nREDCap: Structured tabular data in CSV imported to GenomeDK via API.\nFitrockr: CSV export into REDCap or directly into GenomeDK.\nCGM and scanners: CSV files uploaded into REDCap or directly to GenomeDK.",
+    "crumbs": [
+      "Sections",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data collection</span>"
+    ]
+  },
+  {
+    "objectID": "sections/collection.html#estimated-raw-data-volumes",
+    "href": "sections/collection.html#estimated-raw-data-volumes",
+    "title": "2  Data collection",
+    "section": "2.5 Estimated raw data volumes",
+    "text": "2.5 Estimated raw data volumes\nUnknown size at present.",
+    "crumbs": [
+      "Sections",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data collection</span>"
+    ]
+  },
+  {
+    "objectID": "sections/collection.html#data-aggregation-and-storage",
+    "href": "sections/collection.html#data-aggregation-and-storage",
+    "title": "2  Data collection",
+    "section": "2.6 Data aggregation and storage",
+    "text": "2.6 Data aggregation and storage\nThe REDCap database serves as the central hub for most clinical and scanner data, including manual uploads from devices.\nGenomeDK’s servers will be the final repository for processed and collated data, ensuring a central location for secure storage of data and computational capacity for analysis.",
+    "crumbs": [
+      "Sections",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data collection</span>"
+    ]
+  },
+  {
+    "objectID": "sections/collection.html#quality-assurance",
+    "href": "sections/collection.html#quality-assurance",
+    "title": "2  Data collection",
+    "section": "2.7 Quality assurance",
+    "text": "2.7 Quality assurance\nWe will set up and run automated checks in REDCap to ensure completeness and consistency of clinical data.\nUploaded wearable data will be checked against expected ranges and timestamps. The people responsible will be the on-site staff who are using REDCap during data collection.\nWe will run checks to identify anything missing in the data or any anomalies and report on the results (if any).",
+    "crumbs": [
+      "Sections",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data collection</span>"
+    ]
+  },
+  {
+    "objectID": "sections/collection.html#visualisation-of-data-flow",
+    "href": "sections/collection.html#visualisation-of-data-flow",
+    "title": "2  Data collection",
+    "section": "2.8 Visualisation of data flow",
+    "text": "2.8 Visualisation of data flow\nTBA\n\n2.8.1 REDCap\nREDCap is a secure web application for building and managing online surveys and databases. It is used to collect data from participants and healthcare professionals in DP-Next and collate data from other systems through APIs or csv uploads.\n\n\n2.8.2 Libre\nLibre is a blinded continuous glucose monitoring (CGM) sensor from Abbott that will be worn by the participants for two weeks. The data collected by the Libre device will be extracted at clinic visits and uploaded to the REDCap database. The Libre device will track the participants’ glucose levels in selected weeks of the study.\n\n\n2.8.3 Smart watch\nThe smart watch will be used by the participants to track their physiological and activity-related data through integrated sensors. The data collected by these devices will be transmitted to Fitrockr where it will be collated and then transmitted to REDCap or GenomeDK.",
+    "crumbs": [
+      "Sections",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data collection</span>"
+    ]
+  },
+  {
+    "objectID": "sections/metadata.html",
+    "href": "sections/metadata.html",
+    "title": "3  Documentation and metadata",
+    "section": "",
+    "text": "3.1 Documentation\nTo support the interpretation and reuse of data by other researchers, clear and comprehensive documentation and metadata are essential. To ensure that the data remain FAIR (Findable, Accessible, Interoperable, and Reusable), both now and in the future, this section describes the approach to documenting all datasets and associated metadata. It outlines the tools, standards, and procedures that will be used to maintain detailed descriptions of variables, data sources, and data collection methods. Robust metadata management will support data integrity, facilitate future use and reuse of the data, and ensure compliance with the FAIR principles.\nAll data stored on the GenomeDK servers will be generated during the study, either by healthcare professionals or participants. External dataset will not be stored on GenomeDK. Sources of data include:",
+    "crumbs": [
+      "Sections",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Documentation and metadata</span>"
+    ]
+  },
+  {
+    "objectID": "sections/metadata.html#documentation",
+    "href": "sections/metadata.html#documentation",
+    "title": "3  Documentation and metadata",
+    "section": "",
+    "text": "Participant responses to questionnaires",
+    "crumbs": [
+      "Sections",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Documentation and metadata</span>"
+    ]
+  },
+  {
+    "objectID": "sections/ethics.html",
+    "href": "sections/ethics.html",
+    "title": "4  Ethics, security, and legal compliance",
+    "section": "",
+    "text": "4.1 Ethics and privacy\nThis project involves sensitive personal health data and therefore requires strict adherence to ethical and legal standards for data protection and research integrity. This section outlines how we are planning to handle ethical standards, legal obligations, and data security measures.\nAll participants will provide informed consent prior to participation. The consent form clearly states that study data will be retained for a minimum of 15 years and that data may be shared with other research institutions strictly for research purposes, in accordance with Section 10 of the Danish Data Protection Act (Databeskyttelsesloven § 10).\nThe study has been approved by the relevant Research Ethics Committee. Ethical approval ensures that participants’ rights, safety, and privacy are appropriately protected, that data collection and study procedures are conducted in accordance with the approved protocol, and that the scientific and ethical validity of the study has been assessed.\nThe identification and selection of the study population, including the criteria used to identify eligible individuals through health data, has been approved by the Danish Health Data Authority (Sundhedsdatastyrelsen).\nTo protect the privacy of our participant, personally identifiable data (PID) will never be made available to researchers during the analysis phase. PID will only be accessible to staff responsible for direct participant contact, those managing instruments within REDCap, or for managing the final data structure. For all analytical purposes, pseudonymised or anonymised data will be used. Requests for data extracts must be submitted via a formal application form, which requires applicants to justify their need for specific data points, especially if they involve PID.\nIn general, the principles for data extraction follows the current guidelines from Statistics Denmark. Individual-level data cannot be exported from the project database at GenomeDK. Only aggregated results and analysis scripts not including any personal identifiable data can be extracted.",
+    "crumbs": [
+      "Sections",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Ethics, security, and legal compliance</span>"
     ]
   },
   {
     "objectID": "sections/ethics.html#legal-compliance",
     "href": "sections/ethics.html#legal-compliance",
-    "title": "2  Ethics, security, and legal compliance",
-    "section": "2.2 Legal compliance",
-    "text": "2.2 Legal compliance\nThe project complies with all relevant legal obligations concerning data handling and sharing. A joint data controller agreement is in place between all participating sites, enabling secure and lawful data exchange within the main study and any sub-studies. Data from REDCap will be transferred to GenomeDK (GDK) via a secure API. This should ensure that we comply with all legal requirements.",
+    "title": "4  Ethics, security, and legal compliance",
+    "section": "4.2 Legal compliance",
+    "text": "4.2 Legal compliance\nThe project complies with all relevant legal obligations concerning data handling and sharing. A joint data controller agreement is in place between all participating sites, enabling secure and lawful data exchange within the main study and any sub-studies. Data from REDCap will be transferred to GenomeDK (GDK) via a secure API. This should ensure that we comply with all legal requirements.",
     "crumbs": [
       "Sections",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Ethics, security, and legal compliance</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Ethics, security, and legal compliance</span>"
     ]
   },
   {
     "objectID": "sections/ethics.html#data-security",
     "href": "sections/ethics.html#data-security",
-    "title": "2  Ethics, security, and legal compliance",
-    "section": "2.3 Data security",
-    "text": "2.3 Data security\nAll data analysis will be conducted within the secure environment of GenomeDK (with the exception of the work that will take place in the secure environment at Statistics Denmark). For each approved data access request, a dedicated project folder will be created. Researchers will be informed (via the data access application process) that raw data must not be extracted from GDK and that only analysis results and scripts may be exported. PID stored on GDK will be further protected through encryption using standard scripts available within the platform. If a study requires linkage with additional datasets from Statistics Denmark, PID will only be used for secure transfer purposes and not for direct analysis.\nAny suspected breaches of data security must and will be escalated immediately to the relevant point of escalation at Aarhus University or relevant authority.",
+    "title": "4  Ethics, security, and legal compliance",
+    "section": "4.3 Data security",
+    "text": "4.3 Data security\nAll data analysis will be conducted within the secure environment of GenomeDK (with the exception of the work that will take place in the secure environment at Statistics Denmark). For each approved data access request, a dedicated project folder will be created. Researchers will be informed (via the data access application process) that raw data must not be extracted from GDK and that only analysis results and scripts may be exported. PID stored on GDK will be further protected through encryption using standard scripts available within the platform. If a study requires linkage with additional datasets from Statistics Denmark, PID will only be used for secure transfer purposes and not for direct analysis.\nAny suspected breaches of data security must and will be escalated immediately to the relevant point of escalation at Aarhus University or relevant authority.",
     "crumbs": [
       "Sections",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Ethics, security, and legal compliance</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Ethics, security, and legal compliance</span>"
     ]
   },
   {

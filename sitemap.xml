@@ -1,23 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://dp-next.github.io/wp3-d-clin-dmp/index.html</loc>
+    <lastmod>2026-09-19T10:51:37.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/wp3-d-clin-dmp/sections/sources.html</loc>
+    <lastmod>2026-09-19T10:51:37.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/wp3-d-clin-dmp/sections/collection.html</loc>
+    <lastmod>2026-09-19T10:51:37.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/wp3-d-clin-dmp/sections/metadata.html</loc>
+    <lastmod>2026-09-19T10:51:37.062Z</lastmod>
+  </url>
+  <url>
     <loc>https://dp-next.github.io/wp3-d-clin-dmp/sections/ethics.html</loc>
-    <lastmod>2026-09-19T10:00:19.914Z</lastmod>
+    <lastmod>2026-09-19T10:51:37.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/wp3-d-clin-dmp/sections/storage.html</loc>
+    <lastmod>2026-09-19T10:51:37.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/wp3-d-clin-dmp/sections/selection.html</loc>
+    <lastmod>2026-09-19T10:51:37.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/wp3-d-clin-dmp/sections/sharing.html</loc>
+    <lastmod>2026-09-19T10:51:37.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/wp3-d-clin-dmp/sections/responsibilities.html</loc>
+    <lastmod>2026-09-19T10:51:37.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/wp3-d-clin-dmp/supplemental/naming.html</loc>
+    <lastmod>2026-09-19T10:51:37.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/wp3-d-clin-dmp/supplemental/visits.html</loc>
+    <lastmod>2026-09-19T10:51:37.063Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/wp3-d-clin-dmp/supplemental/risk-assessment.html</loc>
+    <lastmod>2026-09-19T10:51:37.063Z</lastmod>
   </url>
   <url>
     <loc>https://dp-next.github.io/wp3-d-clin-dmp/CODE_OF_CONDUCT.html</loc>
-    <lastmod>2026-09-19T10:00:19.903Z</lastmod>
+    <lastmod>2026-09-19T10:51:37.050Z</lastmod>
   </url>
   <url>
     <loc>https://dp-next.github.io/wp3-d-clin-dmp/CONTRIBUTING.html</loc>
-    <lastmod>2026-09-19T10:00:19.903Z</lastmod>
+    <lastmod>2026-09-19T10:51:37.050Z</lastmod>
   </url>
   <url>
     <loc>https://dp-next.github.io/wp3-d-clin-dmp/CHANGELOG.html</loc>
-    <lastmod>2026-09-19T10:00:19.903Z</lastmod>
+    <lastmod>2026-09-19T10:51:37.050Z</lastmod>
   </url>
   <url>
     <loc>https://dp-next.github.io/wp3-d-clin-dmp/LICENSE.html</loc>
-    <lastmod>2026-09-19T10:00:19.903Z</lastmod>
+    <lastmod>2026-09-19T10:51:37.050Z</lastmod>
   </url>
 </urlset>
