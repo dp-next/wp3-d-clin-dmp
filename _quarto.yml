@@ -1,43 +1,57 @@
 project:
-  # TODO: Change to correct project type if using extensions
   type: book
 
 book:
-  # TODO: Set the title of the website
-  title: ""
+  title: "DP-Next clinical study DMP"
   site-url: "https://dp-next.github.io/wp3-d-clin-dmp/"
   repo-url: "https://github.com/dp-next/wp3-d-clin-dmp"
   author:
-    - name: "TODO: Fill in name"
-      affiliation: "TODO: Fill in your affiliation"
-      orcid: "TODO: Fill in your ORCID"
-    - name: "TODO: Fill in name"
-      affiliation: "TODO: Fill in your affiliation"
-      orcid: "TODO: Fill in your ORCID"
+    - name: "Kristiane Beicher"
+      affiliation: "Steno Diabetes Center Aarhus"
+      orcid: "https://orcid.org/0000-0001-7556-9566"
+    - name: "Luke W. Johnston"
+      affiliation: "Steno Diabetes Center Aarhus"
+      orcid: "https://orcid.org/0000-0003-4169-2616"
+    - name: "David Vadsholt"
+      affiliation: "Steno Diabetes Center North Jutland"
+      orcid: "https://orcid.org/0009-0005-6227-7333"
   repo-branch: main
   repo-actions: [issue, edit, source]
   search:
+    location: navbar
     type: textbox
+  downloads: [pdf]
   chapters:
     - index.qmd
-  #  - part: "Sections"
-  #    chapters:
-  #    - path/to/file.qmd
-  # appendices:
-  #  - path/to/file.qmd
+    - part: "Sections"
+      chapters:
+      - sections/sources.qmd
+      - sections/collection.qmd
+      - sections/metadata.qmd
+      - sections/ethics.qmd
+      - sections/storage.qmd
+      - sections/selection.qmd
+      - sections/sharing.qmd
+      - sections/responsibilities.qmd
+    - part: "Supplementals"
+      chapters:
+        - supplemental/naming.qmd
+        - supplemental/visits.qmd
+        - supplemental/risk-assessment.qmd
+  appendices:
+   - CODE_OF_CONDUCT.md
+   - CONTRIBUTING.md
+   - CHANGELOG.md
   tools:
     - icon: github
       href: "https://github.com/dp-next/wp3-d-clin-dmp"
       aria-label: "GitHub icon: Source repository"
+    - icon: house
+      href: "https://dp-next.github.io"
+      aria-label: "House icon: Main website for the DP-Next project"
   page-footer:
     center:
       - text: "Licensed under CC BY 4.0"
         href: "LICENSE.md"
 
-format:
-  # TODO: Use Quarto extension if available
-  html:
-    theme:
-      # TODO: Choose a different theme if desired
-      - litera
-      - custom-styles.scss
+format: dp-next-theme-html
