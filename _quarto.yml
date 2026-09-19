@@ -25,6 +25,7 @@ book:
     - part: "Sections"
       chapters:
       - sections/ethics.qmd
+      - sections/storage.qmd
   appendices:
    - CODE_OF_CONDUCT.md
    - CONTRIBUTING.md
