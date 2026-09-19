@@ -22,9 +22,9 @@ book:
     type: textbox
   chapters:
     - index.qmd
-  #  - part: "Sections"
-  #    chapters:
-  #    - path/to/file.qmd
+    - part: "Sections"
+      chapters:
+      - ethics.qmd
   # appendices:
   #  - path/to/file.qmd
   tools:
