@@ -49,6 +49,20 @@
     "text": "Contributor Code of Conduct\nAs contributors and maintainers of this project, we pledge to respect all people who contribute through reporting issues, posting suggestions, updating any material, submitting pull requests, and other activities.\nWe are committed to making participation in this project a harassment-free experience for everyone, regardless of level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, or religion.\nExamples of unacceptable behavior by participants include the use of sexual language or imagery, derogatory comments or personal attacks, trolling, public or private harassment, insults, or other unprofessional conduct.\nProject maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct. Project maintainers who do not follow the Code of Conduct may be removed from the project team.\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported by opening an issue or contacting one or more of the project maintainers.\nThis Code of Conduct is adapted from the Contributor Covenant (https://www.contributor-covenant.org), version 1.0.0, available at https://www.contributor-covenant.org/version/1/0/0/"
   },
   {
+    "objectID": "CHANGELOG.html",
+    "href": "CHANGELOG.html",
+    "title": "Changelog",
+    "section": "",
+    "text": "Since we follow Conventional Commits, we’re able to automatically create formal “releases” of the website based on our commit messages. Releases in the context of websites are simply snapshots in time of the website content. We use Cocogitto to be able to automatically create these releases, which uses SemVar as the version numbering scheme, and git-cliff to generate the changelog based on the commit messages.\nBecause releases are created based on commit messages, a new release is created quite often—sometimes several times in a day. This also means that any individual release will not have many changes within it. Below is a list of the releases we’ve made so far, along with what was changed within each release.\nCommits from bots, like dependabot or pre-commit-ci, are not included in the changelog.\n\n\n\n\n\nAdd ethical, legal, and privacy section #3 by @Davads123 (915fda8)\n\n\n\n\n\nUpdate README from template #11 by @lwjohnst86 (f56acbf)\nAdd community health files (from template) #12 by @lwjohnst86 (ec7c984)\n\n\n\n\n\nAdd or update workflows from template #15 by @lwjohnst86 (81b8704)\nAdd continuous release workflows #14 by @lwjohnst86 (bcb101f)\n\n\n\n\n\nCreated from template by @lwjohnst86 (6ba2bae)\nAdd developer experience config and build files #13 by @lwjohnst86 (a17bdb5)\nUpdate Quarto config files and add theme #10 by @lwjohnst86 (5fe03b2)\n\n\n\n\n\n@Davads123 made their first contribution in #3\n@lwjohnst86 made their first contribution in #14"
+  },
+  {
+    "objectID": "CHANGELOG.html#section",
+    "href": "CHANGELOG.html#section",
+    "title": "Changelog",
+    "section": "",
+    "text": "Add ethical, legal, and privacy section #3 by @Davads123 (915fda8)\n\n\n\n\n\nUpdate README from template #11 by @lwjohnst86 (f56acbf)\nAdd community health files (from template) #12 by @lwjohnst86 (ec7c984)\n\n\n\n\n\nAdd or update workflows from template #15 by @lwjohnst86 (81b8704)\nAdd continuous release workflows #14 by @lwjohnst86 (bcb101f)\n\n\n\n\n\nCreated from template by @lwjohnst86 (6ba2bae)\nAdd developer experience config and build files #13 by @lwjohnst86 (a17bdb5)\nUpdate Quarto config files and add theme #10 by @lwjohnst86 (5fe03b2)\n\n\n\n\n\n@Davads123 made their first contribution in #3\n@lwjohnst86 made their first contribution in #14"
+  },
+  {
     "objectID": "sections/ethics.html",
     "href": "sections/ethics.html",
     "title": "Ethics, security, and legal compliance",
