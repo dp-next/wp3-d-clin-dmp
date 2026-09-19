@@ -19,6 +19,30 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.2.0](https://github.com/dp-next/wp3-d-clin-dmp/compare/0.1.0..0.2.0) - 2026-09-19
+
+### ✨ Features
+
+- Move over sections from ON-LiMiT DMP
+  [#1](https://github.com/dp-next/wp3-d-clin-dmp/pull/1) by
+  [`@Davads123`](https://github.com/Davads123)
+  ([49144b8](https://github.com/dp-next/wp3-d-clin-dmp/commit/49144b8e7e6a7cc058f535c2d9567c4b0170ea1b))
+
+### 👩‍💻 Miscellaneous
+
+- Ignore URL checks of pre-commit.ci
+  [#22](https://github.com/dp-next/wp3-d-clin-dmp/pull/22) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([457c0da](https://github.com/dp-next/wp3-d-clin-dmp/commit/457c0daf3a1b7f46596317f6e30c4e55bd4eba6c))
+- Fix Quarto website build with correct project type
+  [#23](https://github.com/dp-next/wp3-d-clin-dmp/pull/23) by
+  [`@lwjohnst86`](https://github.com/lwjohnst86)
+  ([a36a959](https://github.com/dp-next/wp3-d-clin-dmp/commit/a36a959318c7516df13035a56b3d6703e79ce569))
+
+### ❤️ New contributors
+
+- `@dependabot[bot]` started making automated contributions
+
 ## 0.1.0 - 2026-09-19
 
 ### ✨ Features
@@ -65,7 +89,10 @@ changelog.
 
 ### ❤️ New contributors
 
+- `@github-actions[bot]` started making automated contributions
+
 - [`@Davads123`](https://github.com/Davads123) made their first contribution in
   [#3](https://github.com/dp-next/wp3-d-clin-dmp/pull/3)
+
 - [`@lwjohnst86`](https://github.com/lwjohnst86) made their first contribution
   in [#14](https://github.com/dp-next/wp3-d-clin-dmp/pull/14)
