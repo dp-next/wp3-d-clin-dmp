@@ -62,18 +62,15 @@ ensure data usability and interoperability.
 To make clear where a field belongs and what it will be used for, we use the
 following suffix naming conventions in REDCap:
 
-- \_admin: Denotes fields used for administrative purposes.
+- `_admin`: Denotes fields used for administrative purposes.
+- `_qc`: Denotes fields used for data quality control.
+- `_file`: Denotes fields used for file uploads.
+- `_vX`: Denotes which visit a field or form is related to. The suffixes
+  `_admin`, `_qc`, and `_file` mark fields excluded from the data package as
+  they are not relevant for study analyses.
 
-- \_dq: Denotes fields used for data quality.
-
-- \_file: Denotes fields used for file uploads.
-
-- \_vX: Denotes which visit a field or form is related to. The suffixes \_admin,
-  \_dq, and \_file mark fields excluded from the data package as they are not
-  relevant for study analyses.
-
-The suffixes \_admin, \_dq, and \_file mark fields excluded from the data
-package as they are not relevant for study analyses.
+The suffixes `_admin` and `_qc` mark fields excluded from the data package as
+they are not relevant for study analyses.
 
 ## Versioning and updates
 
