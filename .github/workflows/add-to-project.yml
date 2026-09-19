@@ -41,13 +41,13 @@ jobs:
           private-key: ${{ secrets.ADD_TO_BOARD }}
 
       - name: Add issue or PR to PLATFORM project board
-        uses: actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e # v1.0.2
+        uses: actions/add-to-project@5afcf98fcd03f1c2f92c3c83f58ae24323cc57fd # v2.0.0
         with:
           project-url: https://github.com/orgs/${{ github.repository_owner }}/projects/${{ env.BOARD_NUMBER_PLATFORM }}
           github-token: ${{ steps.app-token.outputs.token }}
 
       - name: Add issue or PR to WP3 project board
-        uses: actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e # v1.0.2
+        uses: actions/add-to-project@5afcf98fcd03f1c2f92c3c83f58ae24323cc57fd # v2.0.0
         with:
           project-url: https://github.com/orgs/${{ github.repository_owner }}/projects/${{ env.BOARD_NUMBER_WP3 }}
           github-token: ${{ steps.app-token.outputs.token }}
