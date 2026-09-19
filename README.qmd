@@ -1,0 +1,44 @@
+---
+format: gfm
+metadata-files:
+  - _metadata.yml
+---
+
+# {{< meta tagline >}}
+
+{{< include /includes/_badges.qmd >}}
+
+This repository contains the source Markdown files for the data management plan
+of the clinical study done within the [DP-Next](https://dp-next.github.io)
+project. It also has files to help with developing the material, building it
+into the website, and releasing it to Zenodo.
+
+::: callout-tip
+This website repository was generated from the
+[`template-website`](https://github.com/seedcase-project/template-website)
+Seedcase template :tada:
+:::
+
+## Contributing
+
+Check out our [contributing document](CONTRIBUTING.md) for information on how to
+contribute to the project, including how to set up your development environment.
+
+Please note that this project is released with a [Contributor Code of
+Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to
+abide by its terms.
+
+::: content-hidden
+<!-- TODO: Unhide when there are more contributors -->
+### Contributors
+
+{{< include /includes/_contributors.qmd >}}
+:::
+
+## Licensing
+
+This project is licensed under the [CC-BY-4.0 License](LICENSE.md).
+
+## Changelog
+
+For a list of changes, see our [changelog](CHANGELOG.md) page.
