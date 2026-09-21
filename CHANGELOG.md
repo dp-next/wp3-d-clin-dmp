@@ -19,6 +19,15 @@ releases we've made so far, along with what was changed within each release.
 Commits from bots, like `dependabot` or `pre-commit-ci`, are not included in the
 changelog.
 
+## [0.3.0](https://github.com/dp-next/wp3-d-clin-dmp/compare/0.2.0..0.3.0) - 2026-09-21
+
+### ✨ Features
+
+- Add section on data and metadata sharing
+  [#6](https://github.com/dp-next/wp3-d-clin-dmp/pull/6) by
+  [`@Davads123`](https://github.com/Davads123)
+  ([966b544](https://github.com/dp-next/wp3-d-clin-dmp/commit/966b5441c62f4f28456a2b119d974a3bdd20ccf4))
+
 ## [0.2.0](https://github.com/dp-next/wp3-d-clin-dmp/compare/0.1.0..0.2.0) - 2026-09-19
 
 ### ✨ Features
