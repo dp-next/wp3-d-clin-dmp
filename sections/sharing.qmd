@@ -1,4 +1,4 @@
-# Data sharing
+# Data sharing {#sec-sharing}
 
 Sharing data from research projects is essential for promoting transparency, reproducibility, and collaboration within the scientific community. By making data findable, accessible, interoperable, and reusable (FAIR), we enable other researchers to build upon existing work, validate and verify findings, and generate new insights. This section outlines how data and metadata from the project will be shared, under what conditions, and with what safeguards in place.
 
