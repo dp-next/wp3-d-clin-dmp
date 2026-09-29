@@ -308,7 +308,7 @@
     "href": "CHANGELOG.html",
     "title": "Appendix C — Changelog",
     "section": "",
-    "text": "C.1 0.2.0 - 2026-09-19\nSince we follow Conventional Commits, we’re able to automatically create formal “releases” of the website based on our commit messages. Releases in the context of websites are simply snapshots in time of the website content. We use Cocogitto to be able to automatically create these releases, which uses SemVar as the version numbering scheme, and git-cliff to generate the changelog based on the commit messages.\nBecause releases are created based on commit messages, a new release is created quite often—sometimes several times in a day. This also means that any individual release will not have many changes within it. Below is a list of the releases we’ve made so far, along with what was changed within each release.\nCommits from bots, like dependabot or pre-commit-ci, are not included in the changelog.",
+    "text": "C.1 0.3.0 - 2026-09-21\nSince we follow Conventional Commits, we’re able to automatically create formal “releases” of the website based on our commit messages. Releases in the context of websites are simply snapshots in time of the website content. We use Cocogitto to be able to automatically create these releases, which uses SemVar as the version numbering scheme, and git-cliff to generate the changelog based on the commit messages.\nBecause releases are created based on commit messages, a new release is created quite often—sometimes several times in a day. This also means that any individual release will not have many changes within it. Below is a list of the releases we’ve made so far, along with what was changed within each release.\nCommits from bots, like dependabot or pre-commit-ci, are not included in the changelog.",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>C</span>  <span class='chapter-title'>Changelog</span>"
@@ -319,7 +319,7 @@
     "href": "CHANGELOG.html#section",
     "title": "Appendix C — Changelog",
     "section": "",
-    "text": "C.1.1 ✨ Features\n\nMove over sections from ON-LiMiT DMP #1 by @Davads123 (49144b8)\n\n\n\nC.1.2 👩‍💻 Miscellaneous\n\nIgnore URL checks of pre-commit.ci #22 by @lwjohnst86 (457c0da)\nFix Quarto website build with correct project type #23 by @lwjohnst86 (a36a959)\n\n\n\nC.1.3 ❤️ New contributors\n\n@dependabot[bot] started making automated contributions",
+    "text": "C.1.1 ✨ Features\n\nAdd section on data and metadata sharing #6 by @Davads123 (966b544)",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>C</span>  <span class='chapter-title'>Changelog</span>"
@@ -329,8 +329,19 @@
     "objectID": "CHANGELOG.html#section-1",
     "href": "CHANGELOG.html#section-1",
     "title": "Appendix C — Changelog",
-    "section": "C.2 0.1.0 - 2026-09-19",
-    "text": "C.2 0.1.0 - 2026-09-19\n\nC.2.1 ✨ Features\n\nAdd ethical, legal, and privacy section #3 by @Davads123 (915fda8)\n\n\n\nC.2.2 📝 Documentation\n\nUpdate README from template #11 by @lwjohnst86 (f56acbf)\nAdd community health files (from template) #12 by @lwjohnst86 (ec7c984)\n\n\n\nC.2.3 👷 CI/CD\n\nAdd or update workflows from template #15 by @lwjohnst86 (81b8704)\nAdd continuous release workflows #14 by @lwjohnst86 (bcb101f)\n\n\n\nC.2.4 👩‍💻 Miscellaneous\n\nCreated from template by @lwjohnst86 (6ba2bae)\nAdd developer experience config and build files #13 by @lwjohnst86 (a17bdb5)\nUpdate Quarto config files and add theme #10 by @lwjohnst86 (5fe03b2)\n\n\n\nC.2.5 ❤️ New contributors\n\n@github-actions[bot] started making automated contributions\n@Davads123 made their first contribution in #3\n@lwjohnst86 made their first contribution in #14",
+    "section": "C.2 0.2.0 - 2026-09-19",
+    "text": "C.2 0.2.0 - 2026-09-19\n\nC.2.1 ✨ Features\n\nMove over sections from ON-LiMiT DMP #1 by @Davads123 (49144b8)\n\n\n\nC.2.2 👩‍💻 Miscellaneous\n\nIgnore URL checks of pre-commit.ci #22 by @lwjohnst86 (457c0da)\nFix Quarto website build with correct project type #23 by @lwjohnst86 (a36a959)\n\n\n\nC.2.3 ❤️ New contributors\n\n@dependabot[bot] started making automated contributions",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Changelog</span>"
+    ]
+  },
+  {
+    "objectID": "CHANGELOG.html#section-2",
+    "href": "CHANGELOG.html#section-2",
+    "title": "Appendix C — Changelog",
+    "section": "C.3 0.1.0 - 2026-09-19",
+    "text": "C.3 0.1.0 - 2026-09-19\n\nC.3.1 ✨ Features\n\nAdd ethical, legal, and privacy section #3 by @Davads123 (915fda8)\n\n\n\nC.3.2 📝 Documentation\n\nUpdate README from template #11 by @lwjohnst86 (f56acbf)\nAdd community health files (from template) #12 by @lwjohnst86 (ec7c984)\n\n\n\nC.3.3 👷 CI/CD\n\nAdd or update workflows from template #15 by @lwjohnst86 (81b8704)\nAdd continuous release workflows #14 by @lwjohnst86 (bcb101f)\n\n\n\nC.3.4 👩‍💻 Miscellaneous\n\nCreated from template by @lwjohnst86 (6ba2bae)\nAdd developer experience config and build files #13 by @lwjohnst86 (a17bdb5)\nUpdate Quarto config files and add theme #10 by @lwjohnst86 (5fe03b2)\n\n\n\nC.3.5 ❤️ New contributors\n\n@github-actions[bot] started making automated contributions\n@Davads123 made their first contribution in #3\n@lwjohnst86 made their first contribution in #14",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>C</span>  <span class='chapter-title'>Changelog</span>"
