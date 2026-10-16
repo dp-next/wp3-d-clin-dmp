@@ -37,7 +37,7 @@ ensure data usability and interoperability.
 
 - Field-level documentation: We will write detailed variable descriptions using
   the Field Annotation functionality in REDCap. This includes adherence to
-  naming conventions defined by some naming rules (see below)
+  naming conventions defined in our naming rules (see below)
 
 - Supplier data dictionaries: All external data providers (e.g., CGM, Fitrockr)
   will supply data dictionaries in CSV format. These will be integrated into the
