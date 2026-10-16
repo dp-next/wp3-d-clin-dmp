@@ -148,7 +148,7 @@ Statistics Denmark.
 ## Access to the main data structures
 
 Only a limited number of authorised individuals will have access to the full
-research dataset, and access will be granted on a need-to-know basis. Users will
+research dataset, and access will be granted on a need-to-use basis. Users will
 have personal accounts with strong password requirements, and two-factor
 authentication (2FA) will be required where supported by the relevant system.
 
