@@ -1,0 +1,9 @@
+gh:
+  org: dp-next
+  repo: wp3-d-clin-dmp
+
+tagline: "Data management plan for the clinical study within the DP-Next project"
+
+links:
+  github: "https://github.com/dp-next/wp3-d-clin-dmp"
+  site: "https://dp-next.github.io/wp3-d-clin-dmp"
