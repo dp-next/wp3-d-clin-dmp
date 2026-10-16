@@ -1,4 +1,4 @@
-# Ethics, security, and legal compliance
+# Ethics, security, and legal compliance {#sec-ethics}
 
 This project involves sensitive personal health data and therefore requires
 strict adherence to ethical and legal standards for data protection and research
