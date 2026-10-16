@@ -99,7 +99,7 @@ something that we will keep under observation (see section on data volume).
 
 We will back up the original raw data, the cleaned data in Parquet format, and
 the metadata. As we do not expect to do any analysis in the main study folder
-(see section on [Sharing](https://dmp.DP-Next.org/sections/sharing) Data) we
+(see section on [Sharing](https://dmp.dp-next.org/sections/sharing) Data) we
 don't expect to be backing up any analysis scripts or results here. This will be
 done in separate project folders which will be set up to only back up scripts
 and results.
