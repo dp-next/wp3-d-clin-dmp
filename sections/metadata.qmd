@@ -45,7 +45,8 @@ ensure data usability and interoperability.
 
 - Device and sensor data: The site staff and the data architect will
   collaboratively document the CSV files originating from scanners and sensors
-  to ensure completeness and clarity. These will either be uploaded directly to Genome DK or through attachment to instruments in REDCap.
+  to ensure completeness and clarity. These will either be uploaded directly to
+  Genome DK or through attachment to instruments in REDCap.
 
 - Metadata packaging: We will use software developed from the [Seedcase
   Project](https://seedcase-project.org) to generate and store metadata in a
