@@ -69,9 +69,6 @@ following suffix naming conventions in REDCap:
   `_admin`, `_qc`, and `_file` mark fields excluded from the data package as
   they are not relevant for study analyses.
 
-The suffixes `_admin` and `_qc` mark fields excluded from the data package as
-they are not relevant for study analyses.
-
 ## Versioning and updates
 
 Metadata will be treated as a living resource. Updates will occur whenever new
