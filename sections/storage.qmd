@@ -24,7 +24,7 @@ Denmark. REDCap and Fitrockr are primarily used for data collection, while
 for study-generated data, which is the place we are most responsible for setting
 up not only the storage, but also the subsequent safety and security of the
 data. Register-based analyses and linkage between DP-Next data and Danish
-national registers will take place within Statstics Denmark's secure research
+national registers will take place within Statistics Denmark's secure research
 environment. Register-based microdata will therefore not be transferred to or
 stored on GenomeDK.
 
