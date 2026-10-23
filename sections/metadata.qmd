@@ -28,7 +28,7 @@ Data collection are expected to run from September 2026 to December 2029.\
 There are plans to link study data with register data, this work will take place
 on Statistics Denmark's servers. Access to the data will be strictly controlled
 through GenomeDK. Researchers must submit an application to the steering
-committee to gain access, ensuring transparency and governance.
+committee to gain access, ensuring transparency and governance. See our [starting new projects guide](https://dp-next.github.io/guide/docs/getting-started/new-project.html) for more details about the process to getting data.
 
 ## Metadata strategy
 
