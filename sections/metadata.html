@@ -246,6 +246,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#documentation" id="toc-documentation" class="nav-link active" data-scroll-target="#documentation"><span class="header-section-number">3.1</span> Documentation</a></li>
+  <li><a href="#metadata-strategy" id="toc-metadata-strategy" class="nav-link" data-scroll-target="#metadata-strategy"><span class="header-section-number">3.2</span> Metadata strategy</a></li>
+  <li><a href="#field-naming-conventions-in-dp-next" id="toc-field-naming-conventions-in-dp-next" class="nav-link" data-scroll-target="#field-naming-conventions-in-dp-next"><span class="header-section-number">3.3</span> Field naming conventions in DP Next</a></li>
+  <li><a href="#versioning-and-updates" id="toc-versioning-and-updates" class="nav-link" data-scroll-target="#versioning-and-updates"><span class="header-section-number">3.4</span> Versioning and updates</a></li>
+  <li><a href="#data-discovery-and-accessibility" id="toc-data-discovery-and-accessibility" class="nav-link" data-scroll-target="#data-discovery-and-accessibility"><span class="header-section-number">3.5</span> Data discovery and accessibility</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/dp-next/wp3-d-clin-dmp/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li><li><a href="https://github.com/dp-next/wp3-d-clin-dmp/edit/main/sections/metadata.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/dp-next/wp3-d-clin-dmp/blob/main/sections/metadata.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
@@ -276,8 +280,52 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="3.1" class="anchored" data-anchor-id="documentation"><span class="header-section-number">3.1</span> Documentation</h2>
 <p>All data stored on the GenomeDK servers will be generated during the study, either by healthcare professionals or participants. External dataset will not be stored on GenomeDK. Sources of data include:</p>
 <ul>
-<li>Participant responses to questionnaires</li>
+<li><p>Participant responses to questionnaires</p></li>
+<li><p>Medical devices and scanners producing structured data files. A detailed list of scanners and devices will be maintained as part of the technical documentation.</p></li>
+<li><p>Wearable and sensors including smartwatch and CGM.</p></li>
 </ul>
+<p>Data collection are expected to run from September 2026 to December 2029.<br>
+There are plans to link study data with register data, this work will take place on Statistics Denmark’s servers. Access to the data will be strictly controlled through GenomeDK. Researchers must submit an application to the steering committee to gain access, ensuring transparency and governance. See our <a href="https://dp-next.github.io/guide/docs/getting-started/new-project.html">starting new projects guide</a> for more details about the process to getting data.</p>
+</section>
+<section id="metadata-strategy" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="metadata-strategy"><span class="header-section-number">3.2</span> Metadata strategy</h2>
+<p>Comprehensive metadata will be created and maintained throughout the study to ensure data usability and interoperability.</p>
+<ul>
+<li><p>Field-level documentation: We will write detailed variable descriptions using the Field Annotation functionality in REDCap. This includes adherence to naming conventions defined in our naming rules (see below)</p></li>
+<li><p>Supplier data dictionaries: All external data providers (e.g., CGM, Fitrockr) will supply data dictionaries in CSV format. These will be integrated into the metadata repository.</p></li>
+<li><p>Device and sensor data: The site staff and the data architect will collaboratively document the CSV files originating from scanners and sensors to ensure completeness and clarity. These will either be uploaded directly to Genome DK or through attachment to instruments in REDCap.</p></li>
+<li><p>Metadata packaging: We will use software developed from the <a href="https://seedcase-project.org">Seedcase Project</a> to generate and store metadata in a standardized data package format. These software will also structure the data in a standardized format and will run checks on the data to confirm that it corresponds to the metadata. The data package will be stored on GenomeDK, where the data will be version controlled and a backup kept in case of errors or issues. The metadata will be connected to GitHub to increase accessibility and discoverability as well as improve future collaboration on analyses of the data.</p></li>
+</ul>
+</section>
+<section id="field-naming-conventions-in-dp-next" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="field-naming-conventions-in-dp-next"><span class="header-section-number">3.3</span> Field naming conventions in DP Next</h2>
+<p>To make clear where a field belongs and what it will be used for, we use the following suffix naming conventions in REDCap:</p>
+<ul>
+<li><code>_admin</code>: Denotes fields used for administrative purposes.</li>
+<li><code>_qc</code>: Denotes fields used for data quality control.</li>
+<li><code>_file</code>: Denotes fields used for file uploads.</li>
+<li><code>_vX</code>: Denotes which visit a field or form is related to. The suffixes <code>_admin</code>, <code>_qc</code>, and <code>_file</code> mark fields excluded from the data package as they are not relevant for study analyses.</li>
+</ul>
+</section>
+<section id="versioning-and-updates" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="versioning-and-updates"><span class="header-section-number">3.4</span> Versioning and updates</h2>
+<p>Metadata will be treated as a living resource. Updates will occur whenever new variables are introduced, existing fields are modified, or additional data sources are integrated. Version control will be implemented through the Seedcase software, ensuring that:</p>
+<ul>
+<li>Each metadata package is assigned a unique version identifier.</li>
+<li>Changes are logged with timestamps and descriptions.</li>
+<li>Previous versions remain accessible for audit and reproducibility purposes.</li>
+</ul>
+<p>This approach guarantees traceability and supports long-term data integrity.</p>
+</section>
+<section id="data-discovery-and-accessibility" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="data-discovery-and-accessibility"><span class="header-section-number">3.5</span> Data discovery and accessibility</h2>
+<p>To facilitate data discovery, a dedicated website will be developed. This site will provide:</p>
+<ul>
+<li>A searchable catalog of all variables.</li>
+<li>Clear descriptions and metadata for each variable.</li>
+<li>A foundation for the Publications Panel application process, ensuring researchers can identify relevant data before requesting access.</li>
+</ul>
+<p>This approach guarantees that data is well-documented, discoverable, and compliant with FAIR principles.</p>
 
 
 </section>
